@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/aot25922/opsta-web:dev
+    ports:
+      - "8080:80"
